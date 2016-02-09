@@ -30,7 +30,7 @@
         "0": "You will arrive at your destination.",
         "1": "You will arrive at <DESTINATION>.",
         "2": "Your destination will be on the <RELATIVE_DIRECTION>.",
-        "3": "<DESTINATION> will be on the <RELATIVE_DIRECTION>"
+        "3": "<DESTINATION> will be on the <RELATIVE_DIRECTION>."
       },
       "relative_directions": ["left", "right"]
     },
