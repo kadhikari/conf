@@ -17,24 +17,30 @@
       "cardinal_directions": ["north", "northeast", "east", "southeast", "south", "southwest", "west", "northwest"]
     },
     "destination": {
-      "0": "You have arrived at your destination.",
-      "1": "You have arrived at <DESTINATION>.",
-      "2": "Your destination is on the <RELATIVE_DIRECTION>.",
-      "3": "<DESTINATION> is on the <RELATIVE_DIRECTION>.",
+      "phrases": {
+        "0": "You have arrived at your destination.",
+        "1": "You have arrived at <DESTINATION>.",
+        "2": "Your destination is on the <RELATIVE_DIRECTION>.",
+        "3": "<DESTINATION> is on the <RELATIVE_DIRECTION>.",
+      },
       "relative_directions": ["left", "right"]
     },
     "destination_verbal_alert": {
-      "0": "You will arrive at your destination.",
-      "1": "You will arrive at <DESTINATION>.",
-      "2": "Your destination will be on the <RELATIVE_DIRECTION>.",
-      "3": "<DESTINATION> will be on the <RELATIVE_DIRECTION>",
+      "phrases": {
+        "0": "You will arrive at your destination.",
+        "1": "You will arrive at <DESTINATION>.",
+        "2": "Your destination will be on the <RELATIVE_DIRECTION>.",
+        "3": "<DESTINATION> will be on the <RELATIVE_DIRECTION>",
+      },
       "relative_directions": ["left", "right"]
     },
     "destination_verbal": {
-      "0": "You have arrived at your destination.",
-      "1": "You have arrived at <DESTINATION>.",
-      "2": "Your destination is on the <RELATIVE_DIRECTION>.",
-      "3": "<DESTINATION> is on the <RELATIVE_DIRECTION>.",
+      "phrases": {
+        "0": "You have arrived at your destination.",
+        "1": "You have arrived at <DESTINATION>.",
+        "2": "Your destination is on the <RELATIVE_DIRECTION>.",
+        "3": "<DESTINATION> is on the <RELATIVE_DIRECTION>.",
+      },
       "relative_directions": ["left", "right"]
     },
     "becomes": {
