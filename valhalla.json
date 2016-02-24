@@ -21,7 +21,7 @@
     "elevation": "/data/valhalla/elevation/"
   },
   "loki": {
-    "actions":["locate","route","one_to_many","many_to_one","many_to_many"],
+    "actions":["locate","route","one_to_many","many_to_one","many_to_many","optimized_order"],
     "logging": {
       "type": "std_out",
       "color": true,
