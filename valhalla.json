@@ -21,7 +21,7 @@
     "elevation": "/data/valhalla/elevation/"
   },
   "loki": {
-    "actions":["locate","route","one_to_many","many_to_one","many_to_many","optimized_order"],
+    "actions":["locate","route","one_to_many","many_to_one","many_to_many","optimized_order_route"],
     "logging": {
       "type": "std_out",
       "color": true,
@@ -120,6 +120,10 @@
       "max_locations": 50
     },
     "many_to_many": {
+      "max_distance": 200000.0,
+      "max_locations": 50
+    },
+    "optimized_order_route": {
       "max_distance": 200000.0,
       "max_locations": 50
     },
