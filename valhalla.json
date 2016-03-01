@@ -1,13 +1,6 @@
 {
   "mjolnir": {
-    "hierarchy": {
-      "tile_dir": "/data/valhalla",
-      "levels": [
-        {"name": "local", "level": 2, "size": 0.25},
-        {"name": "arterial", "level": 1, "size": 1, "importance_cutoff": "Tertiary"},
-        {"name": "highway", "level": 0, "size": 4, "importance_cutoff": "Primary"}
-      ]
-    },
+    "tile_dir": "/data/valhalla",
     "admin": "/data/valhalla/admin.sqlite",
     "timezone": "/data/valhalla/tz_world.sqlite",
     "statistics": "/data/valhalla/statistics.sqlite",
@@ -185,10 +178,10 @@
     },
     "transit": {
       "use_bus": 0.3,
-      "use_rail": 0.5,
-      "use_transfers": 0.5,
-      "transfer_cost": 300.0,
-      "transfer_penalty": 45.0
+      "use_rail": 0.6,
+      "use_transfers": 0.3,
+      "transfer_cost": 15.0,
+      "transfer_penalty": 300.0
     }
   }
 }
